@@ -1,0 +1,39 @@
+site_name: Стайлгайд
+site_description: Правила и шаблоны для авторов пользовательской и технической документации
+site_url: https://wurlinney.github.io/style-guide-project/
+repo_url: https://github.com/wurlinney/style-guide-project
+edit_uri: edit/main/docs/
+strict: true
+theme:
+  name: mkdocs
+  locale: ru
+  color_mode: light
+  user_color_mode_toggle: true
+plugins:
+  - search:
+      lang: ru
+markdown_extensions:
+  - fenced_code
+  - tables
+  - toc:
+      permalink: true
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+    unrecognized_links: warn
+nav:
+  - О руководстве: index.md
+  - Правила:
+      - Язык и терминология: language.md
+      - Структура и оформление: formatting.md
+      - Шаблоны документов: templates.md
+      - Ошибки и достоверность: accuracy.md
+      - Проверка и сопровождение: maintenance.md
+  - Примеры:
+      - Пользовательская инструкция: examples/start-training.md
+      - Практическое задание: examples/first-maximum.md
+  - Источники: references.md
