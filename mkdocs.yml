@@ -33,6 +33,7 @@ nav:
       - Шаблоны документов: templates.md
       - Ошибки и достоверность: accuracy.md
       - Проверка и сопровождение: maintenance.md
+      - Доступность текста: accessibility.md
   - Примеры:
       - Пользовательская инструкция: examples/start-training.md
       - Практическое задание: examples/first-maximum.md
