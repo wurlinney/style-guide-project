@@ -1,6 +1,6 @@
 # style-guide-project
 
-Стайлгайд документации абстрактного сервиса подготовки к техническим собеседованиям. Учебный проект по лабораторной работе № 3: Docs as Code, MkDocs, линтинг, GitHub Actions и взаимное ревью.
+Стайлгайд документации сервиса подготовки к техническим собеседованиям. Учебный проект по лабораторной работе № 3: Docs as Code, MkDocs, линтинг, GitHub Actions и взаимное ревью.
 
 [Сайт руководства](https://wurlinney.github.io/style-guide-project/) · [Проверки и публикации](https://github.com/wurlinney/style-guide-project/actions/workflows/docs.yml)
 
